@@ -1,9 +1,5 @@
 # Code Challenge Resolution.
 
-intro xxxx
-
-Instructions on how 
-
 
 ### Step1 : Generate dockerfile 
 
