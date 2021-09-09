@@ -17,14 +17,14 @@ spec:
     spec:
       containers:
       - name: litecoin-node
-        image: dmg8/litecoin:1.22
+        image: dmg8/litecoin:1.18
         resources:
           limits:
             cpu: "500m"
             memory: 1Gi
           requests:
-            cpu: "500m"
-            memory: 1Gi
+            cpu: "300m"
+            memory: 750m
         volumeMounts:
         - name: litecoin-data
           mountPath: /var/litecoin
@@ -37,11 +37,3 @@ spec:
       resources:
         requests:
           storage: 1Gi
----
-#kind: StorageClass
-#apiVersion: storage.k8s.io/v1
-#metadata:
-#  name: fast
-#provisioner: k8s.io/minikube-hostpath
-#parameters:
-#  type: pd-ssd
