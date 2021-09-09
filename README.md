@@ -167,10 +167,7 @@ dmgardella@abacaxi:~/KCC (main=)$ k logs litecoin-node-0 | tail
 
 ```
 
-### Step 3 : Pipeline
-
-```
-```
+### Step 3 : Pipeline : JenkinsFile
 
 ### Step 4 : Bash script - Write shell script to find the top 10 word ocurrence of a given text.
 
@@ -217,4 +214,4 @@ Processing File : test/data/moby_dick.txt
 ```
 
 
-### Step 6 : Terraform
+### Step 6 : Terraform : Not completed. 
