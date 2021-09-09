@@ -3,7 +3,7 @@
 3. Jenkins pipeline
 4. Bash script : Given a text file find to 10 word ocurrence:
 ```
-dmgardella@abacaxi:~/kraken/KCC (main %=)$ cat test/data/moby_dick.txt | sed -e 's/[^[:alpha:]]/ /g' | tr '\n' " " |  tr -s " " |  tr " " '\n' |  tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -nr | head
+dmgardella@abacaxi:~/KCC (main %=)$ cat test/data/moby_dick.txt | sed -e 's/[^[:alpha:]]/ /g' | tr '\n' " " |  tr -s " " |  tr " " '\n' |  tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -nr | head
   14620 the
    6732 of
    6502 and
