@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: litecoin-node
-        image: dmg8/litecoin:1.18
+        image: dmg8/litecoin:latest
         resources:
           limits:
             cpu: "500m"

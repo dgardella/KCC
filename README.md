@@ -192,5 +192,29 @@ dmgardella@abacaxi:~/kraken/KCC (main %>)$ cat test/data/moby_dick.txt | sed -e 
 
 ### Step 5 : Code snippet to resolve #4 challenge
 
+```
+(py3venv) dmgardella@abacaxi:~/kraken/KCC (main *+=)$ python process.py --file test/data/moby_dick.txt
+Processing File : test/data/moby_dick.txt
+
+ ------------ printing Top 10 -----------
+
++----------------------+-------+
+| word ocurrance count | Hits  |
++----------------------+-------+
+|       ('the',)       | 14485 |
+|       ('of',)        | 6701  |
+|       ('and',)       | 6418  |
+|        ('a',)        | 4679  |
+|       ('to',)        | 4654  |
+|       ('in',)        | 4196  |
+|      ('that',)       | 2948  |
+|       ('his',)       | 2518  |
+|       ('it',)        | 2375  |
+|        ('i',)        | 1933  |
++----------------------+-------+
+--------------------------------------------------
+
+```
+
 
 ### Step 6 : Terraform
