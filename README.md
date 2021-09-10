@@ -265,4 +265,4 @@ Processing File : test/data/moby_dick.txt
 ```
 
 
-### Step 6 : Terraform : Not completed. 
+### Step 6 : Terraform : Not completed due to lock of time/resources
