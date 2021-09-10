@@ -137,6 +137,61 @@ Successfully tagged dmg8/litecoin:1.18
  - 1.b : verifiy image with anchore
 
 ```
+dmgardella@abacaxi:~/KCC (main=)$ curl -s https://ci-tools.anchore.io/inline_scan-latest | bash -s -- -p -r dmg8/litecoin:1.18
+Pulling image -- dmg8/litecoin:1.18
+1.18: Pulling from dmg8/litecoin
+Digest: sha256:a5553e290514cfdc26c3ebbacdf3875ca588c7e372712a93e7c8ce2721aba2d4
+Status: Image is up to date for dmg8/litecoin:1.18
+docker.io/dmg8/litecoin:1.18
+
+Pulling docker.io/anchore/inline-scan:v0.10.2
+v0.10.2: Pulling from anchore/inline-scan
+296e14ee2414: Pull complete
+(trimed)
+Copying blob sha256:6a9c0c4b26a08b4eb314198cb0b24fa784a783e5da171c0c38cb006f24424810
+Copying config sha256:a52285dff85f5055de1a113d90fe0bca6c4ec7c1b2a1884d4f0f7e5944b2c7d7
+Writing manifest to image destination
+Storing signatures
+
+Image archive loaded into Anchore Engine using tag -- litecoin:1.18
+Waiting for analysis to complete...
+
+        Status: not_analyzed
+        Status: analyzing............
+        Status: analyzed
+
+Analysis completed!
+
+Successfully generated anchore-reports/litecoin_1.18-content-os.json.
+Successfully generated anchore-reports/litecoin_1.18-content-files.json.
+Successfully generated anchore-reports/litecoin_1.18-vuln.json.
+Successfully generated anchore-reports/litecoin_1.18-details.json.
+Successfully generated anchore-reports/litecoin_1.18-policy.json.
+
+        Policy Evaluation - litecoin:1.18
+-----------------------------------------------------------
+
+Image Digest: sha256:be2c108e261bc655e1c5d7ae3d0118b54c21a0d355ff5065703379ade77717e3
+Full Tag: localhost:5000/litecoin:1.18
+Image ID: a52285dff85f5055de1a113d90fe0bca6c4ec7c1b2a1884d4f0f7e5944b2c7d7
+Status: pass
+Last Eval: 2021-09-10T06:11:33Z
+Policy ID: 2c53a13c-1765-11e8-82ef-23527761d060
+Final Action: warn
+Final Action Reason: policy_evaluation
+
+Gate                   Trigger        Detail                                                                                                                                                         Status
+vulnerabilities        package        MEDIUM Vulnerability found in os package type (dpkg) - libk5crypto3 (CVE-2021-36222 - http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36222)            warn
+vulnerabilities        package        MEDIUM Vulnerability found in os package type (dpkg) - libkrb5support0 (CVE-2021-36222 - http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36222)         warn
+vulnerabilities        package        MEDIUM Vulnerability found in os package type (dpkg) - libkrb5-3 (CVE-2021-36222 - http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36222)               warn
+vulnerabilities        package        MEDIUM Vulnerability found in os package type (dpkg) - wget (CVE-2021-31879 - http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-31879)                    warn
+vulnerabilities        package        MEDIUM Vulnerability found in os package type (dpkg) - libgssapi-krb5-2 (CVE-2021-36222 - http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36222)        warn
+vulnerabilities        package        MEDIUM Vulnerability found in os package type (dpkg) - libsqlite3-0 (CVE-2020-9794 - http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9794)              warn
+
+Copying scan reports from 27852-inline-anchore-engine to /home/dmgardella/KCC/anchore-reports/
+
+Cleaning up docker container: 27852-inline-anchore-engine
+
 ```
 
 ### Step 2 : Create ReplicaSet
@@ -168,7 +223,7 @@ dmgardella@abacaxi:~/KCC (main=)$ k logs litecoin-node-0 | tail
 ### Step 4 : Bash script - Write shell script to find the top 10 word ocurrence of a given text.
 
 ```
-dmgardella@abacaxi:~/kraken/KCC (main %>)$ cat test/data/moby_dick.txt | sed -e 's/[^[:alpha:]]/ /g' | tr '\n' " " |  tr -s " " |  tr " " '\n' |  tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -nr | head
+dmgardella@abacaxi:~/KCC (main %>)$ cat test/data/moby_dick.txt | sed -e 's/[^[:alpha:]]/ /g' | tr '\n' " " |  tr -s " " |  tr " " '\n' |  tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -nr | head
   14620 the
    6732 of
    6502 and
@@ -186,7 +241,7 @@ dmgardella@abacaxi:~/kraken/KCC (main %>)$ cat test/data/moby_dick.txt | sed -e 
 ### Step 5 : Code snippet to resolve #4 challenge
 
 ```
-(py3venv) dmgardella@abacaxi:~/kraken/KCC (main *+=)$ python process.py --file test/data/moby_dick.txt
+(py3venv) dmgardella@abacaxi:~/KCC (main *+=)$ python process.py --file test/data/moby_dick.txt
 Processing File : test/data/moby_dick.txt
 
  ------------ printing Top 10 -----------

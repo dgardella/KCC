@@ -1,0 +1,1126 @@
+{
+    "imageDigest": "sha256:be2c108e261bc655e1c5d7ae3d0118b54c21a0d355ff5065703379ade77717e3",
+    "vulnerabilities": [
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-3326"
+                }
+            ],
+            "package": "libc-bin-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc-bin",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3326",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3326",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-5709"
+                }
+            ],
+            "package": "libk5crypto3-1.17-6ubuntu4.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libk5crypto3",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.17-6ubuntu4.1",
+            "severity": "Negligible",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-5709",
+            "vendor_data": [],
+            "vuln": "CVE-2018-5709",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.2,
+                        "exploitability_score": 3.9,
+                        "impact_score": 10.0
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.8,
+                        "exploitability_score": 1.8,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2019-18276"
+                }
+            ],
+            "package": "bash-5.0-6ubuntu1.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "bash",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "5.0-6ubuntu1.1",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-18276",
+            "vendor_data": [],
+            "vuln": "CVE-2019-18276",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-36222"
+                }
+            ],
+            "package": "libk5crypto3-1.17-6ubuntu4.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libk5crypto3",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.17-6ubuntu4.1",
+            "severity": "Medium",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36222",
+            "vendor_data": [],
+            "vuln": "CVE-2021-36222",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.5,
+                        "exploitability_score": 2.0,
+                        "impact_score": 4.0
+                    },
+                    "id": "CVE-2016-2781"
+                }
+            ],
+            "package": "coreutils-8.30-3ubuntu2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "coreutils",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "8.30-3ubuntu2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781",
+            "vendor_data": [],
+            "vuln": "CVE-2016-2781",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.3,
+                        "exploitability_score": 3.9,
+                        "impact_score": 1.4
+                    },
+                    "id": "CVE-2020-14155"
+                }
+            ],
+            "package": "libpcre3-2:8.39-12build1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libpcre3",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2:8.39-12build1",
+            "severity": "Negligible",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-14155",
+            "vendor_data": [],
+            "vuln": "CVE-2020-14155",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.1,
+                        "exploitability_score": 2.2,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-6096"
+                }
+            ],
+            "package": "libc-bin-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc-bin",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-6096",
+            "vendor_data": [],
+            "vuln": "CVE-2020-6096",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.1,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-25013"
+                }
+            ],
+            "package": "libc-bin-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc-bin",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-25013",
+            "vendor_data": [],
+            "vuln": "CVE-2019-25013",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-5709"
+                }
+            ],
+            "package": "libkrb5-3-1.17-6ubuntu4.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libkrb5-3",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.17-6ubuntu4.1",
+            "severity": "Negligible",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-5709",
+            "vendor_data": [],
+            "vuln": "CVE-2018-5709",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-27618"
+                }
+            ],
+            "package": "libc-bin-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc-bin",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-27618",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27618",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.5,
+                        "exploitability_score": 2.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-9849"
+                }
+            ],
+            "package": "libsqlite3-0-3.31.1-4ubuntu0.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libsqlite3-0",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "3.31.1-4ubuntu0.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9849",
+            "vendor_data": [],
+            "vuln": "CVE-2020-9849",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 1.9,
+                        "exploitability_score": 3.4,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 2.5,
+                        "exploitability_score": 1.0,
+                        "impact_score": 1.4
+                    },
+                    "id": "CVE-2021-27645"
+                }
+            ],
+            "package": "libc-bin-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc-bin",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-27645",
+            "vendor_data": [],
+            "vuln": "CVE-2021-27645",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 3.3,
+                        "exploitability_score": 3.4,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.7,
+                        "exploitability_score": 1.0,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2013-4235"
+                }
+            ],
+            "package": "login-1:4.8.1-1ubuntu5.20.04.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "login",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1:4.8.1-1ubuntu5.20.04.1",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
+            "vendor_data": [],
+            "vuln": "CVE-2013-4235",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.1,
+                        "exploitability_score": 2.2,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2020-6096"
+                }
+            ],
+            "package": "libc6-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc6",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-6096",
+            "vendor_data": [],
+            "vuln": "CVE-2020-6096",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.1,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-1000654"
+                }
+            ],
+            "package": "libtasn1-6-4.16.0-2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libtasn1-6",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "4.16.0-2",
+            "severity": "Negligible",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-1000654",
+            "vendor_data": [],
+            "vuln": "CVE-2018-1000654",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.8,
+                        "exploitability_score": 1.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-29562"
+                }
+            ],
+            "package": "libc-bin-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc-bin",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-29562",
+            "vendor_data": [],
+            "vuln": "CVE-2020-29562",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.1,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-25013"
+                }
+            ],
+            "package": "libc6-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc6",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-25013",
+            "vendor_data": [],
+            "vuln": "CVE-2019-25013",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-5709"
+                }
+            ],
+            "package": "libkrb5support0-1.17-6ubuntu4.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libkrb5support0",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.17-6ubuntu4.1",
+            "severity": "Negligible",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-5709",
+            "vendor_data": [],
+            "vuln": "CVE-2018-5709",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-27618"
+                }
+            ],
+            "package": "libc6-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc6",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-27618",
+            "vendor_data": [],
+            "vuln": "CVE-2020-27618",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-36222"
+                }
+            ],
+            "package": "libkrb5support0-1.17-6ubuntu4.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libkrb5support0",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.17-6ubuntu4.1",
+            "severity": "Medium",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36222",
+            "vendor_data": [],
+            "vuln": "CVE-2021-36222",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2016-10228"
+                }
+            ],
+            "package": "libc6-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc6",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Negligible",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-10228",
+            "vendor_data": [],
+            "vuln": "CVE-2016-10228",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 2.1,
+                        "exploitability_score": 3.9,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.8,
+                        "exploitability_score": 1.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-29562"
+                }
+            ],
+            "package": "libc6-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc6",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-29562",
+            "vendor_data": [],
+            "vuln": "CVE-2020-29562",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-36222"
+                }
+            ],
+            "package": "libkrb5-3-1.17-6ubuntu4.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libkrb5-3",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.17-6ubuntu4.1",
+            "severity": "Medium",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36222",
+            "vendor_data": [],
+            "vuln": "CVE-2021-36222",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 6.1,
+                        "exploitability_score": 2.8,
+                        "impact_score": 2.7
+                    },
+                    "id": "CVE-2021-31879"
+                }
+            ],
+            "package": "wget-1.20.3-1ubuntu1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "wget",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.20.3-1ubuntu1",
+            "severity": "Medium",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-31879",
+            "vendor_data": [],
+            "vuln": "CVE-2021-31879",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2020-9991"
+                }
+            ],
+            "package": "libsqlite3-0-3.31.1-4ubuntu0.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libsqlite3-0",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "3.31.1-4ubuntu0.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9991",
+            "vendor_data": [],
+            "vuln": "CVE-2020-9991",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-3326"
+                }
+            ],
+            "package": "libc6-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc6",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3326",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3326",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2018-5709"
+                }
+            ],
+            "package": "libgssapi-krb5-2-1.17-6ubuntu4.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libgssapi-krb5-2",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.17-6ubuntu4.1",
+            "severity": "Negligible",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-5709",
+            "vendor_data": [],
+            "vuln": "CVE-2018-5709",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 1.9,
+                        "exploitability_score": 3.4,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 2.5,
+                        "exploitability_score": 1.0,
+                        "impact_score": 1.4
+                    },
+                    "id": "CVE-2021-27645"
+                }
+            ],
+            "package": "libc6-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc6",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-27645",
+            "vendor_data": [],
+            "vuln": "CVE-2021-27645",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-33560"
+                }
+            ],
+            "package": "libgcrypt20-1.8.5-5ubuntu1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libgcrypt20",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.8.5-5ubuntu1",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33560",
+            "vendor_data": [],
+            "vuln": "CVE-2021-33560",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-36222"
+                }
+            ],
+            "package": "libgssapi-krb5-2-1.17-6ubuntu4.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libgssapi-krb5-2",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.17-6ubuntu4.1",
+            "severity": "Medium",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-36222",
+            "vendor_data": [],
+            "vuln": "CVE-2021-36222",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 7.8,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2017-11164"
+                }
+            ],
+            "package": "libpcre3-2:8.39-12build1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libpcre3",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2:8.39-12build1",
+            "severity": "Negligible",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164",
+            "vendor_data": [],
+            "vuln": "CVE-2017-11164",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.9,
+                        "exploitability_score": 2.2,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2016-10228"
+                }
+            ],
+            "package": "libc-bin-2.31-0ubuntu9.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libc-bin",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2.31-0ubuntu9.2",
+            "severity": "Negligible",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-10228",
+            "vendor_data": [],
+            "vuln": "CVE-2016-10228",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 3.3,
+                        "exploitability_score": 3.4,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 4.7,
+                        "exploitability_score": 1.0,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2013-4235"
+                }
+            ],
+            "package": "passwd-1:4.8.1-1ubuntu5.20.04.1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "passwd",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1:4.8.1-1ubuntu5.20.04.1",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235",
+            "vendor_data": [],
+            "vuln": "CVE-2013-4235",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2019-20838"
+                }
+            ],
+            "package": "libpcre3-2:8.39-12build1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libpcre3",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "2:8.39-12build1",
+            "severity": "Low",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-20838",
+            "vendor_data": [],
+            "vuln": "CVE-2019-20838",
+            "will_not_fix": false
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "ubuntu:20.04",
+            "fix": "None",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 4.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.1,
+                        "exploitability_score": 2.8,
+                        "impact_score": 5.2
+                    },
+                    "id": "CVE-2020-9794"
+                }
+            ],
+            "package": "libsqlite3-0-3.31.1-4ubuntu0.2",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libsqlite3-0",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "3.31.1-4ubuntu0.2",
+            "severity": "Medium",
+            "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-9794",
+            "vendor_data": [],
+            "vuln": "CVE-2020-9794",
+            "will_not_fix": false
+        }
+    ],
+    "vulnerability_type": "all"
+}
