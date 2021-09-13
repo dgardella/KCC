@@ -265,4 +265,125 @@ Processing File : test/data/moby_dick.txt
 ```
 
 
-### Step 6 : Terraform : Not completed due to lock of time/resources
+### Step 6 : Terraform :
+
+```
+dmgardella@abacaxi:~/KCC (main=)$ cd TF
+dmgardella@abacaxi:~/KCC/TF (main=)$ terraform apply --auto-approve
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # aws_iam_group.group will be created
+  + resource "aws_iam_group" "group" {
+      + arn       = (known after apply)
+      + id        = (known after apply)
+      + name      = "group_KCC_TF"
+      + path      = "/"
+      + unique_id = (known after apply)
+    }
+
+  # aws_iam_policy.policy will be created
+  + resource "aws_iam_policy" "policy" {
+      + arn       = (known after apply)
+      + id        = (known after apply)
+      + name      = "policy_KCC_TF"
+      + path      = "/"
+      + policy    = (known after apply)
+      + policy_id = (known after apply)
+      + tags_all  = (known after apply)
+    }
+
+  # aws_iam_role.role will be created
+  + resource "aws_iam_role" "role" {
+      + arn                   = (known after apply)
+      + assume_role_policy    = jsonencode(
+            {
+              + Statement = [
+                  + {
+                      + Action    = "sts:AssumeRole"
+                      + Effect    = "Allow"
+                      + Principal = {
+                          + AWS = "arn:aws:iam::<hide>:root"
+                        }
+                      + Sid       = ""
+                    },
+                ]
+              + Version   = "2012-10-17"
+            }
+        )
+      + create_date           = (known after apply)
+      + force_detach_policies = false
+      + id                    = (known after apply)
+      + managed_policy_arns   = (known after apply)
+      + max_session_duration  = 3600
+      + name                  = "role_KCC_TF"
+      + path                  = "/"
+      + tags_all              = (known after apply)
+      + unique_id             = (known after apply)
+
+      + inline_policy {
+          + name   = (known after apply)
+          + policy = (known after apply)
+        }
+    }
+
+  # aws_iam_role_policy_attachment.policy-attach will be created
+  + resource "aws_iam_role_policy_attachment" "policy-attach" {
+      + id         = (known after apply)
+      + policy_arn = (known after apply)
+      + role       = "role_KCC_TF"
+    }
+
+  # aws_iam_user.user will be created
+  + resource "aws_iam_user" "user" {
+      + arn           = (known after apply)
+      + force_destroy = false
+      + id            = (known after apply)
+      + name          = "user_KCC_TF"
+      + path          = "/"
+      + tags_all      = (known after apply)
+      + unique_id     = (known after apply)
+    }
+
+  # aws_iam_user_group_membership.group_membership will be created
+  + resource "aws_iam_user_group_membership" "group_membership" {
+      + groups = [
+          + "group_KCC_TF",
+        ]
+      + id     = (known after apply)
+      + user   = "user_KCC_TF"
+    }
+
+Plan: 6 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  + group_name = "group_KCC_TF"
+  + role_arn   = (known after apply)
+  + role_name  = "role_KCC_TF"
+  + user_name  = "user_KCC_TF"
+aws_iam_group.group: Creating...
+aws_iam_role.role: Creating...
+aws_iam_user.user: Creating...
+aws_iam_group.group: Creation complete after 2s [id=group_KCC_TF]
+aws_iam_user.user: Creation complete after 2s [id=user_KCC_TF]
+aws_iam_user_group_membership.group_membership: Creating...
+aws_iam_role.role: Creation complete after 3s [id=role_KCC_TF]
+aws_iam_policy.policy: Creating...
+aws_iam_user_group_membership.group_membership: Creation complete after 1s [id=terraform-20210913214811408200000001]
+aws_iam_policy.policy: Creation complete after 1s [id=arn:aws:iam::<hide>:policy/policy_KCC_TF]
+aws_iam_role_policy_attachment.policy-attach: Creating...
+aws_iam_role_policy_attachment.policy-attach: Creation complete after 1s [id=role_KCC_TF-20210913214813860900000002]
+
+Apply complete! Resources: 6 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+group_name = "group_KCC_TF"
+role_arn = "arn:aws:iam::<hide>:role/role_KCC_TF"
+role_name = "role_KCC_TF"
+user_name = "user_KCC_TF"
+dmgardella@abacaxi:~/KCC/TF (main=)$
+```
